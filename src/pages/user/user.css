@@ -1,0 +1,77 @@
+.user {
+  flex: 4;
+  margin-top: 20px;
+}
+
+.userHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 5vw;
+}
+
+.userTitle {
+  color: #0a2e5e;
+  text-align: center;
+  margin: auto 0;
+}
+
+.userLogo {
+  margin-right: 3vw;
+  text-align: center;
+}
+
+.userDetailsView {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 50%;
+  /* padding: 15px 20px; */
+}
+
+.userDetailsViewR1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.userDetailsUserName {
+  font-size: 24px;
+  color: #0a2e5e;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+span {
+  font-size: 20px;
+  font-weight: normal;
+  color: #36587a;
+}
+
+.userDetailsViewR2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userDetailsUserEmail {
+  font-size: 24px;
+  color: #0a2e5e;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.userDetailsUserContact {
+  font-size: 24px;
+  color: #0a2e5e;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+}

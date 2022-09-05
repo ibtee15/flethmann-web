@@ -1,0 +1,157 @@
+.backBtn {
+  background: none;
+  border: none;
+  color: #0a2e5e;
+  font-weight: 700;
+}
+
+.backBtnIcon {
+  font-size: 28px !important;
+  cursor: pointer;
+}
+
+.titleWithBack {
+  display: flex;
+  flex-direction: row;
+}
+
+.ruleDetails {
+  flex: 4;
+  margin-top: 20px;
+}
+
+.ruleDetailsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 5vw;
+}
+
+.ruleDetailsTitle {
+  color: #0a2e5e;
+  text-align: center;
+  margin: auto 0;
+}
+
+.toEditBtns {
+  display: flex;
+  flex-direction: row;
+  margin-left: -80px;
+}
+
+.deleteBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: auto 0;
+  margin-right: 10px;
+  border-radius: 60px;
+  border: none;
+  background-color: #b32423;
+  color: white;
+  cursor: pointer;
+}
+
+.deleteBtnIcon {
+  font-size: 18px !important;
+}
+
+.editBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: auto 0;
+  border-radius: 60px;
+  border: none;
+  background-color: #0a2e5e;
+  color: white;
+  cursor: pointer;
+}
+
+.editBtnIcon {
+  font-size: 18px !important;
+}
+
+.ruleDetailsLogo {
+  margin-right: 3vw;
+  text-align: center;
+}
+
+.ruleName {
+  font-weight: bold;
+  font-size: 40px;
+  color: #b32423;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.view2Div {
+  margin: 30px auto;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+.view2Btn1 {
+  padding: 0 30px;
+  height: 50px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a2e5e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.view2Btn2 {
+  padding: 0 30px;
+  height: 50px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a2e5e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.ruleView {
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #0a2e5e;
+}
+.input {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0a2e5e;
+  border: none;
+  padding: 2px 0px;
+  text-align: right;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.genTxt {
+  color: #0a2e5e;
+  font-size: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}

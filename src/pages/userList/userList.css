@@ -1,0 +1,96 @@
+.userList {
+  flex: 4;
+  margin-top: 20px;
+}
+
+.userListHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 5vw;
+}
+
+.userListTitle {
+  color: #0a2e5e;
+  text-align: center;
+  margin: auto 0;
+}
+
+.userListLogo {
+  margin-right: 3vw;
+  text-align: center;
+}
+
+.userListContainer {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 15px;
+  background-color: #f7f7f7;
+  padding: 15px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.userListContainer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.userListImg {
+  font-weight: 300 !important;
+  color: #0a2e5e !important;
+  font-size: 80px !important;
+  text-align: center;
+  align-items: center;
+}
+
+.userAgeView {
+  flex-direction: column;
+  /* align-items: center;
+  align-self: center; */
+}
+
+.userListUserName {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0a2e5e;
+  display: flex;
+  justify-content: center;
+}
+
+.userListUserEmail {
+  font-size: 18px;
+  color: #0a2e5e;
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #0a2e5e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fwdBtn {
+  padding: 0 30px;
+  height: 50px;
+  border-radius: 15px;
+  align-items: center;
+  background-color: #0a2e5e;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+}
